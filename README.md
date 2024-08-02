@@ -16,8 +16,6 @@
           <img src="./.gitManager/images/icons/yarn.svg" alt=yarn>
         </a>
       </td>
-    </tr>
-    <tr>
       <td height=100 width=100>
         <a href=https://vitejs.dev/>
           <img src="./.gitManager/images/icons/vitejs.svg" alt=vite>
