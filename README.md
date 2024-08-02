@@ -1,6 +1,8 @@
-﻿# ITech
+﻿
+# Portfolio Project:
+# ITech
 
-## Portfolio Project:
+### Tehnologies:
 
 <table>
   <thead>
