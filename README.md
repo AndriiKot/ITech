@@ -27,4 +27,3 @@
   </tbody>
 </table>
 
-#### ! For the code to work correctly, use 'live server' in Visual Studio Code !
