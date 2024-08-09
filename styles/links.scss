@@ -1,7 +1,11 @@
 ﻿.link {
-  color: blue;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
+  color: var(--color-black);
+  transition: var(--transition);
+  font-weight: bold;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: var(--violet-color);
   }
 }

@@ -49,4 +49,4 @@
 
 1. Install dependencies with `yarn`
 2. Run `yarn start` or `npm start`
-3. Open your browser and go to `http://localhost:3000/`
+3. Open your browser and go to `http://localhost:5174/` or `http://127.0.0.1:5174/` in your browser
