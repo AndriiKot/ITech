@@ -1,0 +1,33 @@
+﻿@use "variables.scss" as *;
+
+.header,
+.main,
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+
+  @media (min-width: $sm) {
+    width: 540px;
+  }
+
+  @media (min-width: $md) {
+    width: 720px;
+  }
+
+  @media (min-width: $lg) {
+    width: 960px;
+  }
+
+  @media (min-width: $xl) {
+    width: 1170px;
+  }
+
+  @media (min-width: $xxl) {
+    width: 1320px;
+  }
+}
