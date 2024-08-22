@@ -1,0 +1,18 @@
+﻿.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: var(--gap);
+}
+
+.header__buttons,
+.navigation__list {
+  display: flex;
+  gap: var(--gap);
+}
+
+.navigation__list {
+  text-transform: uppercase;
+  font: var(--font-smaller);
+}

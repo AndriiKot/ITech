@@ -1,19 +1,38 @@
 ﻿.button {
+  --size: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: var(--gap);
+
+  height: var(--size);
+
   border: 1px solid var(--color-grey);
-  border-radius: 10px;
+
+  transition: var(--transition);
+
   font: var(--font-smaller);
   cursor: pointer;
-  transition: var(--transition);
+
+  border-radius: var(--size);
   &:hover,
   &:active,
   &:focus {
     border-color: var(--color-violet);
+    background-color: var(--color-violet);
+
+    color: var(--color-white);
+
+    svg {
+      fill: var(--color-white);
+    }
   }
 
-  &--round {
-    --size: 40px;
+  &_round {
+    padding: 0;
     width: var(--size);
     height: var(--size);
-    border-radius: 50%;
   }
 }

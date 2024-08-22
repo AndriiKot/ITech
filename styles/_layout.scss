@@ -8,22 +8,13 @@
   align-items: center;
 }
 
-.header-container {
+
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: var(--gap);
-}
 
-.list_navigation {
-  display: flex;
-  gap: var(--gap);
-
-  text-transform: uppercase;
-  font: var(--font-smaller);
-}
-
-.container {
   width: 100%;
 
   @media (min-width: $sm) {
